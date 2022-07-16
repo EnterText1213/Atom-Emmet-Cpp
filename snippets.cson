@@ -1,0 +1,29 @@
+'.source.cpp':
+  'std::~':
+    'prefix': '::'
+    'body': 'std::'
+  'using namespace std':
+    'prefix': 'std'
+    'body': 'using namespace std;'
+  'int main':
+    'prefix': 'intm'
+    'body': '''
+       #include <iostream>
+       using namespace std;
+
+       int main()
+       {
+         // some code
+         return 0;
+       }'''
+  'void main':
+    'prefix': 'voidm'
+    'body': '''
+       #include <iostream>
+       using namespace std;
+
+       void main()
+       {
+         // some code
+         return 0;
+       }'''
